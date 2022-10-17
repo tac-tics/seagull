@@ -16,10 +16,10 @@ def main():
         with open(filename) as infile:
             for outline, word in json.load(infile).items():
                 if outline in dictionary:
-                    assert dictionary[outline] == word, f'Words do not match for outline: {word}'
+                    assert dictionary[outline] == word, f'Outline used twice: {outline} for {word} and {dictionary[outline]}'
                 dictionary[outline] = word
                 words.add(word)
-                assert word not in canonical_outlines or canonical_outlines[word] == outline, f'Word does not have a canonical outline: {word}'
+                assert word not in canonical_outlines or canonical_outlines[word] == outline, f'Word does not have a canonical outline: {word} as outlines {outline} and {canonical_outlines[word]}'
                 canonical_outlines[word] = outline
 
     with open('seagull.json', 'w') as outfile:
