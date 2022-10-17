@@ -16329,5 +16329,9 @@
     "SHRAOEUTS": "slights",
     "SREBG/SAEURBS": "vexatious",
     "UPBD": "under",
-    "EPB/SREL/OP": "envelop"
+    "EPB/SREL/OP": "envelop",
+    "-S": "{^s}",
+    "-Z": "{^s}",
+    "-G": "{^ing}",
+    "-D": "{^ed}"
 }

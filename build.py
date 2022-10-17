@@ -12,6 +12,9 @@ def main():
         if filename == 'dictionaries/lapwing.json':
             continue
 
+        if filename == 'dictionaries/suffixes.json':
+            continue
+
         print(filename)
         with open(filename) as infile:
             for outline, word in json.load(infile).items():
@@ -21,6 +24,10 @@ def main():
                 words.add(word)
                 assert word not in canonical_outlines or canonical_outlines[word] == outline, f'Word does not have a canonical outline: {word} as outlines {outline} and {canonical_outlines[word]}'
                 canonical_outlines[word] = outline
+
+    with open('dictionaries/suffixes.json') as infile:
+        for outline, word in json.load(infile).items():
+            dictionary[outline] = word
 
     with open('seagull.json', 'w') as outfile:
         json.dump(dictionary, outfile, indent=4)
