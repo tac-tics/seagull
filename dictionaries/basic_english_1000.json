@@ -1,7 +1,6 @@
 {
     "A": "a",
     "A-BL": "able",
-    "": "zoom",
     "APL": "am",
     "APB": "an",
     "APBD": "and",
@@ -14,7 +13,6 @@
     "TOE": "toe",
     "TAO": "too",
     "TAOL": "tool",
-    "null": "zoom",
     "ABT": "about",
     "AF": "after",
     "R": "are",
@@ -85,5 +83,6 @@
     "U": "you",
     "UR": "your",
     "URS": "yours",
-    "S*ER/KWROE": "zero"
+    "S*ER/KWROE": "zero",
+    "SAO*PL": "zoom"
 }
