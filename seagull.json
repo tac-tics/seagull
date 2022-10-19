@@ -7314,7 +7314,6 @@
     "PAOLD": "pooled",
     "PRO/PORGS/A*L": "proportional",
     "TAOU/PWA": "tuba",
-    "THEUPBGS": "things",
     "TAOUBS": "tubes",
     "PHEUS/AOUS": "misuse",
     "RED/KWRER": "readier",
@@ -16333,6 +16332,10 @@
     "W-PBT": "went",
     "TPAPL": "family",
     "S*EUPL": "simple",
+    "T-G": "thing",
+    "T-GS": "things",
+    "HRETS": "lets",
+    "HR*ETS": "let's",
     "-RS": "{^ers}",
     "-R": "{^er}",
     "-S": "{^s}",
@@ -16340,5 +16343,7 @@
     "-RG": "{^ering}",
     "-G": "{^ing}",
     "HREU": "{^ly}",
-    "-D": "{^ed}"
+    "-D": "{^ed}",
+    "*S": "{^'s}",
+    "*Z": "{^'s}"
 }
