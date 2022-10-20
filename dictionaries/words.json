@@ -20,5 +20,14 @@
     "HRET": "let",
     "HRETS": "lets",
     "HR*ETS": "let's",
+    "SPH/T-G": "something",
+    "SPH/WUPB": "someone",
+    "SPH/WHR": "somewhere",
+    "TPHE/T-G": "anything",
+    "TPHE/WUPB": "anyone",
+    "TPHE/WHR": "anywhere",
+    "TPH/T-G": "nothing",
+    "TPH/WHR": "nowhere",
+    "PH": "many",
     "TP": "if"
 }
