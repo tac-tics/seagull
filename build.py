@@ -24,7 +24,7 @@ def main():
                     assert dictionary[outline] == word, f'Outline used twice: {outline} for {word} and {dictionary[outline]}'
                 dictionary[outline] = word
                 words.add(word)
-                assert word not in canonical_outlines or canonical_outlines[word] == outline, f'Word does not have a canonical outline: {word} as outlines {outline} and {canonical_outlines[word]}'
+                assert word not in canonical_outlines or canonical_outlines[word] == outline, f'Word does not have a canonical outline: {word!r} as outlines {outline} and {canonical_outlines[word]}'
                 canonical_outlines[word] = outline
 
     with open('dictionaries/suffixes.json') as infile:
