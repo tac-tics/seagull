@@ -4,7 +4,15 @@
     "TK-PB": "done",
     "TK-S": "does",
 
-    "TK-PBS": "doesn't",
-    "TK-PBD": "didn't",
-    "TK-PBT": "don't"
+    "TK*PBS": "doesn't",
+    "TK*PBD": "didn't",
+    "TK*PBT": "don't",
+
+    "W*PB": "won't",
+    "K*PBD": "couldn't",
+    "SH*PBD": "shouldn't",
+    "W*PBD": "wouldn't",
+
+    "R*LG": "aren't",
+    "K*LG": "can't"
 }

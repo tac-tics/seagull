@@ -24,7 +24,7 @@
     "TH*EF": "they've",
     "TH*EL": "they'll",
     "TH*ED": "they'd",
-    "R-LGT": "aren't",
-    "K-LGT": "can't",
-    "TK-PBD": "didn't"
+    "R*LG": "aren't",
+    "K*LG": "can't",
+    "TK*PBD": "didn't"
 }
