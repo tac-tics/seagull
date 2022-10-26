@@ -13,6 +13,6 @@
     "SH*PBD": "shouldn't",
     "W*PBD": "wouldn't",
 
-    "R*LG": "aren't",
-    "K*LG": "can't"
+    "R*PB": "aren't",
+    "K*PB": "can't"
 }
