@@ -4,6 +4,11 @@
     "TKOEPB": "done",
     "TKOES": "does",
 
+    "H-D": "had",
+    "H*PBD": "hadn't",
+    "H-S": "has",
+    "H*PBS": "hasn't",
+
     "*PB": "{^n't}",
 
     "W*": "won't",
