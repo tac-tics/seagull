@@ -11,11 +11,12 @@
 
     "*PB": "{^n't}",
 
-    "W*": "won't",
     "K*PBD": "couldn't",
     "SH*PBD": "shouldn't",
     "W*PBD": "wouldn't",
 
     "R*PB": "aren't",
-    "K*PB": "can't"
+    "K*PB": "can't",
+    "TKO*PB": "don't",
+    "W*PN": "won't"
 }
