@@ -18,5 +18,7 @@
     "R*PB": "aren't",
     "K*PB": "can't",
     "TKO*PB": "don't",
-    "W*PN": "won't"
+    "W*PB": "won't",
+    "WR": "were",
+    "WR*PB": "weren't"
 }
