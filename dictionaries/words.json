@@ -39,5 +39,14 @@
     "REPL": "remember",
     "HR*RT": "alright",
     "PHOP/-D": "mopped",
-    "TP": "if"
+    "TP": "if",
+    "PHEU/SEF": "myself",
+    "UR/SEF": "yourself",
+    "HEUPL/SEF": "himself",
+    "HER/SEF": "herself",
+    "-T/SEF": "itself",
+    "OUR/SEFS": "ourselves",
+    "UR/SEFS": "yourselves",
+    "THEPL/SEF": "themself",
+    "THEPL/SEFS": "themselves"
 }
