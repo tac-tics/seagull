@@ -5,6 +5,7 @@ import urllib
 
 DICTIONARY_URLS = [
     'https://raw.githubusercontent.com/tac-tics/seagull/master/seagull.json',
+    'https://raw.githubusercontent.com/tac-tics/seagull/master/dictionaries/commands.json',
     'https://raw.githubusercontent.com/tac-tics/seagull/master/dictionaries/punctuation.json',
     'https://raw.githubusercontent.com/tac-tics/seagull/master/dictionaries/stened.json',
 ]
@@ -58,16 +59,18 @@ def outline_from_key(key):
 def lookup(key):
     global MODE
     assert len(key) <= LONGEST_KEY
+    assert '#' not in key
     outline = outline_from_key(key)
+
 
     if outline == '#*':
         MODE = 'dictionary'
-        return '{#}'
+        raise KeyError
 
     if MODE == 'dictionary':
         if outline == '#':
             MODE = 'fingerspelling'
-            return '{#}'
+            raise KeyError
 
         elif outline == 'TPH':
             try:
@@ -79,10 +82,7 @@ def lookup(key):
         return DICTIONARY[outline]
 
     elif MODE == 'fingerspelling':
-        try:
-            return FINGERSPELLING[outline]
-        except:
-            return '{#}'
+        return FINGERSPELLING[outline]
 
     raise KeyError
 
