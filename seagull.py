@@ -5,6 +5,9 @@ import urllib
 
 DICTIONARY_URLS = [
     'https://raw.githubusercontent.com/tac-tics/seagull/master/seagull.json',
+    'https://raw.githubusercontent.com/tac-tics/seagull/master/dictionaries/punctuation.json',
+    'https://raw.githubusercontent.com/tac-tics/seagull/master/fingerspelling.json',
+    'https://raw.githubusercontent.com/tac-tics/seagull/master/dictionaries/stened.json',
 ]
 
 
