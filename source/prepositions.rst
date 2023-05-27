@@ -9,7 +9,6 @@ Prepositions
 * along
 * amid
 * among
-* anti
 * around
 * :steno:`as <AS>`
 * :steno:`at <AT>`
@@ -22,7 +21,7 @@ Prepositions
 * between
 * beyond
 * :steno:`but <PWUT>`
-* by
+* :steno:`by <PWEU>`
 * concerning
 * considering
 * despite
@@ -36,19 +35,18 @@ Prepositions
 * from
 * :steno:`in <-PB>`
 * inside
-* into
-* like
+* :steno:`into <-PBT>`
 * minus
 * near
 * :steno:`of <-F>`
-* off
-* on
-* onto
+* :steno:`off <OF>`
+* :steno:`on <OPB>`
+* :steno:`onto <OPB/TO>`
 * opposite
 * outside
 * over
 * past
-* per
+* :steno:`per <PER>`
 * plus
 * regarding
 * round
@@ -56,17 +54,17 @@ Prepositions
 * since
 * than
 * through
-* to
+* :steno:`to <TO>`
 * toward
 * towards
 * under
 * underneath
 * unlike
 * until
-* up
-* upon
-* versus
+* :steno:`up <UP>`
+* :steno:`upon <POPB>`
+* `versus <HRS>`
 * via
-* with
-* within
-* without
+* :steno:`with <W>`
+* :steno:`within <W-PB>`
+* :steno:`without <WOUT>`

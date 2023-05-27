@@ -33,3 +33,6 @@ Also includes "has".
 * :steno:`it'd <*TD>`
 * :steno:`we'd <W*ED>`
 * :steno:`they'd <TH*ED>`
+
+* :steno:`won't <W*PB>`
+* :steno:`isn't <S*PB>`

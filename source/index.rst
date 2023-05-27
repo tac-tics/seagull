@@ -10,6 +10,9 @@ Seagull Steno
  contractions
  basic_verbs
  prepositions
+ no_some_any
+ notes
+ yesno
 
 
 Seagull is a stenography theory for Plover.
