@@ -179,6 +179,8 @@
     "UR/SEFS": "yourselves",
     "THEPL/SEF": "themself",
     "THEPL/SEFS": "themselves",
+    "TP-PL": "{.}",
+    "KW-BG": "{,}",
     "-RS": "{^ers}",
     "-R": "{^er}",
     "-S": "{^s}",
