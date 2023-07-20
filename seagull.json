@@ -122,6 +122,8 @@
     "H*PBD": "hadn't",
     "H-S": "has",
     "H*PBS": "hasn't",
+    "S*PB": "isn't",
+    "W*PBS": "wasn't",
     "*PB": "{^n't}",
     "K*PBD": "couldn't",
     "SH*PBD": "shouldn't",
@@ -43713,7 +43715,6 @@
     "W*FPLT/-FPLT": "{^W}{.}",
     "W*RBGS": "{^W}",
     "W*RBGZ": "{^-w}",
-    "W*PBS": "witness",
     "W*PL": "wpm",
     "W*PLD": "{^w.}",
     "W*PLD/STPH": "{^w.}{?}",
@@ -61343,5 +61344,5 @@
     "-G/HREU": "{^ingly}",
     "-GS": "{^ings}",
     "-D/HREU": "{^edly}",
-    "#K-T": "2023-07-18_04_42_44"
+    "#K-T": "2023-07-20_19_18_04"
 }

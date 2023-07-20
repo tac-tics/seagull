@@ -122,6 +122,8 @@
     "H*PBD": "hadn't",
     "H-S": "has",
     "H*PBS": "hasn't",
+    "S*PB": "isn't",
+    "W*PBS": "wasn't",
     "*PB": "{^n't}",
     "K*PBD": "couldn't",
     "SH*PBD": "shouldn't",
