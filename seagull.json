@@ -188,7 +188,8 @@
     "K*FD": "could've",
     "TPH/KUPL": "income",
     "TPHOR": "nor",
-    "TPH*ER": "another",
+    "O*ER": "other",
+    "TPHO*ER": "another",
     "TPHE": "{any^}",
     "TPH-FR": "never",
     "TPAOU": "few",
@@ -55751,7 +55752,6 @@
     "O*EFRT": "overt",
     "O*EFPL": "ovum",
     "O*EFL": "oval",
-    "O*ER": "other",
     "O*ER/KWREPB/TAL": "Oriental",
     "O*ER/KWREPBT": "Orient",
     "O*ERZ": "otherwise",
@@ -61344,5 +61344,5 @@
     "-G/HREU": "{^ingly}",
     "-GS": "{^ings}",
     "-D/HREU": "{^edly}",
-    "#K-T": "2023-07-20_19_18_04"
+    "#K-T": "2023-07-26_03_21_23"
 }
